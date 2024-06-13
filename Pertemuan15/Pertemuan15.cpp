@@ -1,7 +1,12 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+class Node {
+public:
+	string info;
+	Node* leftchild;
+	Node* rightchild;
+
+	
+	
